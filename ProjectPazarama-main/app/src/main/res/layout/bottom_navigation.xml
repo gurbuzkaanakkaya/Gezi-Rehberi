@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_bottom_corner">
+
+    <ImageButton
+        android:id="@+id/ibGezilecekler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/gezilecekler"
+        android:src="@drawable/ic_home"
+        app:layout_constraintEnd_toStartOf="@+id/ibYerEkle"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ibYerEkle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/yerekle"
+        android:src="@drawable/ic_add"
+        app:layout_constraintEnd_toStartOf="@+id/ibGezdiklerim"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ibGezilecekler"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ibGezdiklerim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/gezdiklerim"
+        android:src="@drawable/ic_gezdiklerim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ibYerEkle"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvGezilecekler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ibGezilecekler"
+        app:layout_constraintStart_toStartOf="@+id/ibGezilecekler"
+        app:layout_constraintTop_toBottomOf="@+id/ibGezilecekler"
+        tools:text="Gezilecekler" />
+
+    <TextView
+        android:id="@+id/tvGezdiklerim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ibGezdiklerim"
+        app:layout_constraintStart_toStartOf="@+id/ibGezdiklerim"
+        app:layout_constraintTop_toBottomOf="@+id/ibGezdiklerim"
+        tools:text="Gezdiklerim" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

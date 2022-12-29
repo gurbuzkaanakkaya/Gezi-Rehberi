@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ProjectPazarama</string>
+    <string name="gezilecekler">Gezilecekler</string>
+    <string name="yerekle">Yer Ekle</string>
+    <string name="gezdiklerim">Gezdiklerim</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="back">back</string>
+    <string name="yer_ekle">Yer Ekle</string>
+    <string name="konum_sec">Konum Seç</string>
+</resources>

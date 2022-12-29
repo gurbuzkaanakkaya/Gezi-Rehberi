@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llPlaceShortDesc"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/textfield_background"
+    android:layout_height="wrap_content" >
+    <TextView
+        android:id="@+id/visitDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yer Kısa tanım"
+        android:textSize="12sp"
+        android:textColor="#4B4848"
+        />
+    <TextView
+        android:id="@+id/visitDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="Yer kısa tanım bilgisi"
+        android:textSize="12sp"
+        android:textColorHint="#9E9E9E"
+        android:textColor="#4B4848"
+        android:maxLines="3"
+        />
+</LinearLayout>
