@@ -4,7 +4,8 @@ A travel application that allows users to track their visited places and plan fu
 
 # Features
 
-• # Visited Places: Users can store the locations of visited places, including photographs and coordinates.
+ # Visited Places:
+ • Users can store the locations of visited places, including photographs and coordinates.
 
 • Interactive Map: Places can be selected interactively on a map, providing a visual representation of the visited locations.
 
