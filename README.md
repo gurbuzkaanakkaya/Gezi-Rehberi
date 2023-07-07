@@ -14,7 +14,7 @@ A travel application that allows users to track their visited places and plan fu
 
 • Intuitive Interface: The application offers an intuitive user interface, ensuring a user-friendly experience.
 
-• Database : The integration of a database system ensures seamless data management and retrieval.
+• Database Integration: The application seamlessly integrates with SQLite for efficient and reliable database operations. Leveraging SQLite, users can easily store, edit, and retrieve their visited places. The database integration ensures secure data storage and retrieval, providing users with a smooth experience throughout their travel journey.
 
 https://user-images.githubusercontent.com/103320421/209936207-7fce0452-55bc-4cf4-b690-ee57bfd3aa3f.mp4
 
